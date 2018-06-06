@@ -20,4 +20,4 @@ if [ -z "$packer_tool" ]; then
     packer_tool="$curpath/.bin/packer"
 fi
 
-$packer_tool build k8s-1.6-gpu-xenial.json
+$packer_tool build k8s-1.6-xenial.json
